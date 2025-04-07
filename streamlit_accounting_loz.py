@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 # Load processed data
-data = pd.read_excel("C:/Users/Admin/Downloads/Accouonting I W6.xlsx", sheet_name='Python')
+data = pd.read_excel("Accouonting I W6.xlsx", sheet_name='Python')
 
 names = ['basic', 'standard', 'premium']
 model_map = {'Basic': 'basic', 'Standard': 'standard', 'Premium': 'premium'}
